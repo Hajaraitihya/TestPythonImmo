@@ -1,0 +1,123 @@
+[
+  {
+    "model": "PromgrammeImmo.Programme",
+    "pk": 1,
+    "fields": {
+      "name":"XXX",
+      "actif": "True"
+    }
+  },
+  {
+    "model": "PromgrammeImmo.Caracteristique",
+    "pk": 1,
+    "fields": {
+      "description":"proche station ski"
+    }
+  },
+  {
+    "model": "PromgrammeImmo.Caracteristique",
+    "pk": 2,
+    "fields": {
+      "description":"piscine"
+    }
+  },
+  {
+    "model": "PromgrammeImmo.Appartement",
+    "pk": 1,
+    "fields": {
+      "prix": 180000,
+      "surface": 33,
+      "nombre_piece": 2,
+      "Id_programme": 1
+    }
+  },
+  {
+    "model": "PromgrammeImmo.Appartement",
+    "pk": 2,
+    "fields": {
+      "prix": 180000,
+      "surface": 33,
+      "nombre_piece": 2,
+      "Id_programme": 1
+    }
+  },
+  {
+    "model": "PromgrammeImmo.Appartement",
+    "pk": 3,
+    "fields": {
+      "prix": 180000,
+      "surface": 33,
+      "nombre_piece": 2,
+      "caracteristiques":[1],
+      "Id_programme": 1
+    }
+  },
+  {
+    "model": "PromgrammeImmo.Appartement",
+    "pk": 4,
+    "fields": {
+      "prix": 180000,
+      "surface": 33,
+      "nombre_piece": 2,
+      "caracteristiques":[2],
+      "Id_programme": 1
+    }
+  },
+  {
+    "model": "PromgrammeImmo.Appartement",
+    "pk": 6,
+    "fields": {
+      "prix": 180000,
+      "surface": 33,
+      "nombre_piece": 2,
+      "caracteristiques":[2],
+      "Id_programme": 1
+    }
+  },
+  {
+    "model": "PromgrammeImmo.Appartement",
+    "pk": 7,
+    "fields": {
+      "prix": 180000,
+      "surface": 33,
+      "nombre_piece": 2,
+      "caracteristiques":[1],
+      "Id_programme": 4    }
+  },
+  {
+    "model": "PromgrammeImmo.Appartement",
+    "pk": 8,
+    "fields": {
+      "prix": 180000,
+      "surface": 33,
+      "nombre_piece": 2,
+      "caracteristiques":[1,2],
+      "Id_programme": 4
+    }
+  },
+  {
+    "model": "PromgrammeImmo.Programme",
+    "pk": 2,
+    "fields": {
+      "name":"XXX",
+      "actif": "True"
+    }
+  },
+  {
+    "model": "PromgrammeImmo.Programme",
+    "pk": 3,
+    "fields": {
+      "name":"XXX",
+      "actif": "True"
+    }
+  },
+    {
+    "model": "PromgrammeImmo.Programme",
+    "pk": 4,
+    "fields": {
+      "name":"XXX",
+      "actif": "False"
+    }
+  }
+  
+]
